@@ -1,0 +1,21 @@
+.footCon {
+    height: auto;
+    background: #7C4DFF;
+}
+
+.footCon p {
+    margin: 0;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.copy {
+    background:rgb(99,62,204);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.copy span {
+    color: white;
+}

@@ -1,0 +1,280 @@
+.imgCon {
+    background: url('https://res.cloudinary.com/dfqxzvppi/image/upload/v1586385450/cosmic-timetraveler-pYyOZ8q7AII-unsplash_zmxye1.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    max-height: 800px;
+    animation: fadeInAnimation ease 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+ 
+}
+
+
+
+.set {
+    
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top:0;
+    left: 0;
+    pointer-events: none;
+    overflow: hidden;
+    max-height: 800px;
+    max-width: 1700px;
+
+}
+
+.set2 {
+    transform: scale(2);
+    filter: blur(2px);
+}
+
+.image1 {
+    width: 110px;
+    z-index: 10;
+    
+}
+
+.image2{
+    width: 110px;
+    z-index: 10;
+}
+
+
+.image3{
+    width: 70px;
+    z-index: 10;
+}
+
+.set div{
+    position: absolute;
+    display: block;
+}
+
+.set div:nth-child(1){
+    left: 20%;
+    animation: animate 15s linear infinite;
+}
+
+.set div:nth-child(2){
+    left: 50%;
+    animation: animate 20s linear infinite;
+    animation-delay: -5s;
+}
+
+.set div:nth-child(3){
+    left: 70%;
+    animation: animate 20s linear infinite;
+    animation-delay: 0s;
+}
+
+.set div:nth-child(4){
+    left: 0%;
+    animation: animate 15s linear infinite;
+    animation-delay: -5s;
+}
+
+.set div:nth-child(5){
+    left: 85%;
+    animation: animate 12s linear infinite;
+    animation-delay: -10s;
+}
+
+.set div:nth-child(6){
+    left: 0%;
+    animation: animate 12s linear infinite;
+}
+
+.set div:nth-child(7){
+    left: 15%;
+    animation: animate 14s linear infinite;
+}
+
+.set div:nth-child(8){
+    left: 65%;
+    animation: animate 9s linear infinite;
+    animation-delay: -10s;
+}
+
+.set div:nth-child(9){
+    left: 20%;
+    animation: animate2 7s linear infinite;
+}
+
+.set div:nth-child(10){
+    left: 50%;
+    animation: animate2 10s linear infinite;
+    animation-delay: -5s;
+}
+
+.set div:nth-child(11){
+    left: 70%;
+    animation: animate2 10s linear infinite;
+    animation-delay: -10s;
+}
+
+.set div:nth-child(12){
+    left: 0%;
+    animation: animate2 8s linear infinite;
+    animation-delay: -5s;
+}
+
+.set div:nth-child(13){
+    left: 85%;
+    animation: animate2 6s linear infinite;
+    animation-delay: -10s;
+}
+
+.set div:nth-child(14){
+    left: 0%;
+    animation: animate2 5s linear infinite;
+    
+}
+
+.set div:nth-child(15){
+    left: 95%;
+    animation: animate2 7s linear infinite;
+}
+
+.set div:nth-child(16){
+    left: 65%;
+    animation: animate2 9s linear infinite;
+    animation-delay: -10s;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    width: 100%;
+    z-index: 20;
+    color: white;
+    height: 100%;
+}
+
+.quote h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+.quote h3 {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.quote h4 {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        top: -10%;
+        transform: translateX(20px) rotate(0deg);
+    }
+    10%{
+        opacity: 1;
+    }
+    20%{
+        transform: translateX(-20px) rotate(45deg);
+    }
+    40%{
+        transform: translateX(-20px) rotate(90deg);
+    }
+    60%{
+        transform: translateX(20px) rotate(180deg);
+    }
+    80%{
+        transform: translateX(-20px) rotate(225deg);
+    }
+    100%{
+        top:100%;
+        transform: translateX(-20px) rotate(265deg);
+    }
+}
+
+@keyframes animate2 {
+    0%{
+        opacity: 0;
+        top: -10%;
+        transform: translateX(40px) rotate(0deg);
+    }
+    10%{
+        opacity: 1;
+    }
+    20%{
+        transform: translateX(-40px) rotate(25deg);
+    }
+    40%{
+        transform: translateX(-40px) rotate(45deg);
+    }
+    60%{
+        transform: translateX(40px) rotate(90deg);
+    }
+    80%{
+        transform: translateX(-40px) rotate(160deg);
+    }
+    100%{
+        top:100%;
+        transform: translateX(-40px) rotate(180deg);
+    }
+}
+
+@keyframes fadeInAnimation {
+    0%{
+        opacity: 0;
+    }
+
+    100% 
+     {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1005px) {
+    .image1 {
+        width: 60px;
+        
+        
+    }
+    
+    .image2{
+        width: 60px;
+    
+    }
+    
+    
+    .image3{
+        width: 50px;
+     
+    }
+    
+}
+
+@media (max-width: 405px) {
+    .image1 {
+        width: 40px;
+        
+        
+    }
+    
+    .image2{
+        width: 40px;
+    
+    }
+    
+    
+    .image3{
+        width: 30px;
+     
+    }
+    
+}
