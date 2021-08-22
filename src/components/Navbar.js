@@ -15,7 +15,7 @@ function Navbar() {
                 <li className="nameNav" id="name" >Paulina Fischer</li>
                 <li><a className='navAnchor' href='#home'>HOME</a></li>
                 <li><a className='navAnchor' href="#books">BOOKS</a></li>
-                <li><Link className='navAnchor' to='#contact'>CONTACT</Link></li>
+                <li><a className='navAnchor' href='#contact'>CONTACT</a></li>
             </ul>
         </nav>
       </div>
