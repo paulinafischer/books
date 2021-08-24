@@ -3,6 +3,7 @@ import './Footer.css';
 
 function Footer() {
   return (
+<<<<<<< HEAD
     <div className="footCon">
       <footer>
 
@@ -14,6 +15,10 @@ function Footer() {
           <p> Paulina Fischer</p>
         </div>
       </footer>
+=======
+    <div className="footCon" id="footer">
+        <footer>
+>>>>>>> b269b0c5b36cfb2cf689357493c76b737223b1c5
 
     </div>
   );
