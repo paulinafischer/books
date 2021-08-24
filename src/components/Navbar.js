@@ -1,30 +1,30 @@
-import React from 'react'
-import {Link} from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Slider from './Slider';
 import Books from './Books';
 import Footer from './Footer';
 
-function Navbar() {     
+function Navbar() {
   return (
     <div>
-        <div className="navbar">
+      <div className="navbar">
         <nav>
-            <ul className="navList">
-                
-                <li className="nameNav" id="name" >Paulina Fischer</li>
-                <li><a className='navAnchor' href='#home'>HOME</a></li>
-                <li><a className='navAnchor' href="#books">BOOKS</a></li>
-                <li><Link className='navAnchor' to='#contact'>CONTACT</Link></li>
-            </ul>
+          <ul className="navList">
+
+            <li className="nameNav" id="name">Paulina Fischer</li>
+            <li><a className="navAnchor" href="#home">HOME</a></li>
+            <li><a className="navAnchor" href="#books">BOOKS</a></li>
+            <li><Link className="navAnchor" to="#contact">CONTACT</Link></li>
+          </ul>
         </nav>
       </div>
-      <Slider/>
-      <Books/>
-      <Footer/>
+      <Slider />
+      <Books />
+      <Footer />
     </div>
-    
+
   );
 }
 
-export default Navbar
+export default Navbar;
