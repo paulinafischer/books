@@ -1,14 +1,14 @@
-import React from 'react'
-import {Link} from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Slider from './Slider';
 import Books from './Books';
 import Footer from './Footer';
 
-function Navbar() {     
+function Navbar() {
   return (
     <div>
-        <div className="navbar">
+      <div className="navbar">
         <nav>
             <ul className="navList">
                 
@@ -19,12 +19,12 @@ function Navbar() {
             </ul>
         </nav>
       </div>
-      <Slider/>
-      <Books/>
-      <Footer/>
+      <Slider />
+      <Books />
+      <Footer />
     </div>
-    
+
   );
 }
 
-export default Navbar
+export default Navbar;

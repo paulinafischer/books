@@ -1,17 +1,16 @@
 import React from 'react';
-import { BrowserRouter,Switch,Route} from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 
 import './App.css';
 
 function App() {
-  
   return (
     <div className="App">
       <BrowserRouter>
         <Switch>
           <Route path="/" component={Navbar} />
-        </Switch>    
+        </Switch>
       </BrowserRouter>
     </div>
   );
